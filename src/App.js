@@ -2,9 +2,28 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Little Lemon</h1>
-    </div>
+    <>
+      <header>
+        <div>
+          <img src="/images/Logo.svg" alt="logo" />
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>Main</main>
+      <footer>Footer</footer>
+    </>
   );
 }
 
