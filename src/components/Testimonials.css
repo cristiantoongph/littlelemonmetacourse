@@ -1,0 +1,50 @@
+.testimonials {
+  min-height: 40vh;
+  padding: 6rem 0;
+  background: #333333;
+  color: #fff;
+}
+.testimonials__container {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.testimonials__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.testimonials__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.testimonials__cards .testimonial__card {
+  background: #fff;
+  color: #000;
+  width: 300px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.testimonials__cards .testimonial__card .rating {
+  margin-bottom: 1rem;
+}
+
+.testimonials__cards .testimonial__card .info {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.testimonials__cards .testimonial__card .info .testimonial__image {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+}
+.testimonials__cards .testimonial__card .info .testimonial__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

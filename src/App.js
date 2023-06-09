@@ -1,37 +1,24 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./components/pages/HomePage/HomePage";
+import BookingPage from "./components/pages/BookingPage/BookingPage";
 
 function App() {
   return (
     <>
-      <header>
-        <div>
-          <img src="/images/Logo.svg" alt="logo" />
-        </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Menu</a>
-            </li>
-            <li>
-              <a href="#">Reservations</a>
-            </li>
-            <li>
-              <a href="#">Order Online</a>
-            </li>
-            <li>
-              <a href="#">Login</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>Main</main>
-      <footer>Footer</footer>
+      <BrowserRouter>
+        <Navbar />
+        <main>
+          <Routes>
+             <Route path="/" element={<HomePage />}></Route>
+            <Route path="/booking" element={<BookingPage />}></Route>
+          </Routes>
+        </main>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

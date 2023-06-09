@@ -13,57 +13,16 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* primary colors #495e57 #f4ce14 */
 
-.App-link {
-  color: #61dafb;
-}
+/* secondary colors #ee9972 #fbdabb #edefee #333333*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Typefaces */
 
-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1600px;
-}
-
-nav ul {
-  display: flex;
-}
-
-nav ul li {
-  list-style-type: none;
-  margin-right: 50px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: inherit;
-}
-
-main {
-  margin: 0 auto;
-  max-width: 1600px;
-}
-
-footer {
-  margin: 0 auto;
-  max-width: 1600px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Markazi Text", serif;
+  font-size: 18pt;
 }
