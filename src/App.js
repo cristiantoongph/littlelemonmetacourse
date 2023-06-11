@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./components/pages/HomePage/HomePage";
 import BookingPage from "./components/pages/BookingPage/BookingPage";
+import React, { useReducer, useState } from "react";
 
 function App() {
   return (
