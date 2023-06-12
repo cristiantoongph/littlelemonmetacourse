@@ -4,7 +4,7 @@ import { testimonialsData } from "./data/TestimonialData";
 
 function Testimonials() {
   return (
-    <section className="testimonials" id="testimonials">
+    <section className="testimonials">
       <div className="testimonials__container">
         <h1 className="testimonials__title">Testimonials</h1>
         <div className="testimonials__cards">
