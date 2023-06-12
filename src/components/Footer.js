@@ -3,11 +3,11 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer id="contact">
+    <footer>
       <div className="footer__container">
         <div className="footer__nav">
           <div className="footer__image footer__nav__item">
-            <img src="/images/lemonbar.jpg" alt="footer img" />
+            <img src="/images/logo-white.png" alt="footer img" />
           </div>
           <div className="footer__doormat footer__nav__item">
             <h1 className="footer__title">Doormat Navigation</h1>

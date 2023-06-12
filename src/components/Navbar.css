@@ -62,11 +62,6 @@ header {
   display: none;
 }
 
-footer {
-  margin: 0 auto;
-  max-width: 1600px;
-}
-
 @media screen and (max-width: 1600px) {
   header {
     padding-left: 5rem;
