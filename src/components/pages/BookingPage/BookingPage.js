@@ -42,12 +42,6 @@ function BookingPage() {
           availableTimes={availableTimes}
           dispatchOnDateChange={dispatchOnDateChange}
         />
-
-        <hr />
-        <div className="booking__info">
-          <p>Seats: 3</p>
-          <p>Table: 5</p>
-        </div>
       </div>
     </section>
   );

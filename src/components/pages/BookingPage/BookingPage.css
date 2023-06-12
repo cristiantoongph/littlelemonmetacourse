@@ -51,3 +51,12 @@
   padding: 1.875rem 0 1.875rem 0;
   text-align: center;
 }
+
+@media screen and (max-width: 1190px) {
+  .booking {
+    padding: 0 4rem;
+  }
+  .form-field {
+    margin-bottom: 2rem;
+  }
+}
