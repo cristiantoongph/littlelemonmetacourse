@@ -54,3 +54,16 @@
     right: 12%;
   }
 }
+
+@media screen and (max-width: 1190px) {
+  .hero__image {
+    display: none;
+  }
+  .hero__info {
+    width: 100%;
+    text-align: center;
+  }
+  .hero__title {
+    width: 100%;
+  }
+}

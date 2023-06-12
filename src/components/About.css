@@ -1,6 +1,6 @@
 .about {
   min-height: 40vh;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 .about__container {
   display: flex;
@@ -61,5 +61,17 @@
   }
   .about__container .about__image1 {
     right: 12%;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .about__info {
+    text-align: center;
+  }
+  .about__image1 {
+    display: none;
+  }
+  .about__image2 {
+    display: none;
   }
 }

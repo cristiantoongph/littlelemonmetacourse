@@ -4,7 +4,7 @@ import { specialsData } from "./data/Specials";
 
 function Specials() {
   return (
-    <section className="specials">
+    <section className="specials" id="specials">
       <div className="specials__container">
         <h1 className="specials__title">Specials</h1>
         <div className="specials__cards">
